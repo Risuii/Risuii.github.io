@@ -437,11 +437,6 @@ a:hover {
   .projects-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-
-  .project-card:last-child {
-    grid-column: 1 / -1;
-    max-width: calc(50% - 0.75rem);
-  }
 }
 
 .project-card {
@@ -498,6 +493,12 @@ a:hover {
 
 .project-value strong {
   color: var(--text);
+}
+
+.project-value a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .project-stack {
@@ -608,7 +609,4 @@ a:hover {
     padding: 0.75rem 1rem;
   }
 
-  .project-card:last-child {
-    max-width: none;
-  }
 }
