@@ -73,11 +73,17 @@ a:hover {
 }
 
 .nav-logo {
-  font-family: var(--font-mono);
-  font-weight: 700;
-  font-size: 1.1rem;
+  font-weight: 600;
+  font-size: 0.95rem;
   color: var(--text);
   letter-spacing: -0.02em;
+  white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+  .nav-logo {
+    font-size: 0.8rem;
+  }
 }
 
 .nav-logo:hover {
