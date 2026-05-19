@@ -523,10 +523,33 @@ a:hover {
   transition: border-color 0.2s, transform 0.15s;
 }
 
-.contact-card:hover {
+a.contact-card:hover {
   border-color: var(--accent);
   transform: translateY(-2px);
   color: inherit;
+}
+
+.contact-card-email:hover {
+  border-color: var(--accent);
+}
+
+.contact-card-email .contact-value {
+  font-weight: 500;
+}
+
+.contact-card-email .contact-value:hover {
+  color: var(--accent-hover);
+}
+
+.contact-alt {
+  margin-top: 0.15rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.contact-alt:hover {
+  color: var(--accent);
 }
 
 .contact-label {
