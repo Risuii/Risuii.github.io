@@ -1,4 +1,4 @@
-# Faris Fahmi — IT Consultant
+# Faris Fahmi — Tenaga Ahli IT
 
 Landing page freelance (portofolio pribadi).
 
